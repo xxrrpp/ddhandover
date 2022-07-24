@@ -1,0 +1,2 @@
+web: gunicorn dget.wsgi
+clock: python dget/clock.py
